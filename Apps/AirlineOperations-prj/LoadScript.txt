@@ -1,0 +1,72 @@
+﻿///$tab Main
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';
+SET MoneyDecimalSep='.';
+SET MoneyFormat='$#,##0.00;($#,##0.00)';
+SET TimeFormat='h:mm:ss TT';
+SET DateFormat='M/D/YYYY';
+SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT';
+SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
+SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
+
+LOAD [%Airline ID], 
+     [%Carrier Group ID], 
+     [%Unique Carrier Code], 
+     [%Unique Carrier Entity Code], 
+     [%Region Code], 
+     [%Origin Airport ID], 
+     [%Origin Airport Sequence ID], 
+     [%Origin Airport Market ID], 
+     [%Origin World Area Code], 
+     [%Destination Airport ID], 
+     [%Destination Airport Sequence ID], 
+     [%Destination Airport Market ID], 
+     [%Destination World Area Code], 
+     [%Aircraft Group ID], 
+     [%Aircraft Type ID], 
+     [%Aircraft Configuration ID], 
+     [%Distance Group ID], 
+     [%Service Class ID], 
+     [%Datasource ID], 
+     [# Departures Scheduled], 
+     [# Departures Performed], 
+     [# Payload], 
+     Distance, 
+     [# Available Seats], 
+     [# Transported Passengers], 
+     [# Transported Freight], 
+     [# Transported Mail], 
+     [# Ramp-To-Ramp Time], 
+     [# Air Time], 
+     [Unique Carrier], 
+     [Carrier Code], 
+     [Carrier Name], 
+     [Origin Airport Code], 
+     [Origin City], 
+     [Origin State Code], 
+     [Origin State FIPS], 
+     [Origin State], 
+     [Origin Country Code], 
+     [Origin Country], 
+     [Destination Airport Code], 
+     [Destination City], 
+     [Destination State Code], 
+     [Destination State FIPS], 
+     [Destination State], 
+     [Destination Country Code], 
+     [Destination Country], 
+     Year, 
+     Period, 
+     Quarter, 
+     [Month (#)], 
+     Month, 
+     [From - To Airport Code], 
+     [From - To Airport ID], 
+     [From - To City], 
+     [From - To State Code], 
+     [From - To State]
+FROM
+[..\Data Files\QVDs\Flight Data.qvd]
+(qvd);
+
