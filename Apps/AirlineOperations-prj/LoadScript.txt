@@ -81,6 +81,13 @@ FROM
 [..\Data Files\QVDs\Carrier Groups.qvd]
 (qvd);
 
+[Airlines]:
+LOAD [%Airline ID], 
+     Airline
+FROM
+[..\Data Files\QVDs\Airlines.qvd]
+(qvd);
+
 [Carrier Operating Region]:
 LOAD [%Region Code], 
      [Carrier's Operating Region]

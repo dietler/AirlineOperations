@@ -4,176 +4,211 @@
     <bool>false</bool>
     <bool>false</bool>
     <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
   </AlwaysLoose>
   <FieldSrcTables>
     <String>6</String>
-    <String>1</String>
-    <String>Flight Data</String>
+    <String>2</String>
+    <String>Main Data</String>
+    <String>Airlines</String>
     <String>7</String>
-    <String>1</String>
-    <String>Flight Data</String>
+    <String>2</String>
+    <String>Main Data</String>
+    <String>Carrier Groups</String>
     <String>8</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>9</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>10</String>
-    <String>1</String>
-    <String>Flight Data</String>
+    <String>2</String>
+    <String>Main Data</String>
+    <String>Carrier Operating Region</String>
     <String>11</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>12</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>13</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>14</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>15</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>16</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>17</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>18</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>19</String>
-    <String>1</String>
-    <String>Flight Data</String>
+    <String>2</String>
+    <String>Main Data</String>
+    <String>Aircraft Groups</String>
     <String>20</String>
-    <String>1</String>
-    <String>Flight Data</String>
+    <String>2</String>
+    <String>Main Data</String>
+    <String>Aircraft Types</String>
     <String>21</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>22</String>
-    <String>1</String>
-    <String>Flight Data</String>
+    <String>2</String>
+    <String>Main Data</String>
+    <String>Distance Groups</String>
     <String>23</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>24</String>
-    <String>1</String>
-    <String>Flight Data</String>
+    <String>2</String>
+    <String>Main Data</String>
+    <String>Flight Types</String>
     <String>25</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>26</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>27</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>28</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>29</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>30</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>31</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>32</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>33</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>34</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>35</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>36</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>37</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>38</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>39</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>40</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>41</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>42</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>43</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>44</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>45</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>46</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>47</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>48</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>49</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>50</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>51</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>52</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>53</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>54</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>55</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>56</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>57</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>58</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>59</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>60</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
     <String>61</String>
     <String>1</String>
-    <String>Flight Data</String>
+    <String>Main Data</String>
+    <String>62</String>
+    <String>1</String>
+    <String>Carrier Groups</String>
+    <String>63</String>
+    <String>1</String>
+    <String>Airlines</String>
+    <String>64</String>
+    <String>1</String>
+    <String>Carrier Operating Region</String>
+    <String>65</String>
+    <String>1</String>
+    <String>Flight Types</String>
+    <String>66</String>
+    <String>1</String>
+    <String>Aircraft Groups</String>
+    <String>67</String>
+    <String>1</String>
+    <String>Aircraft Types</String>
+    <String>68</String>
+    <String>1</String>
+    <String>Distance Groups</String>
   </FieldSrcTables>
   <TableViewData></TableViewData>
   <Bookmarks></Bookmarks>
@@ -186,6 +221,13 @@
         <FieldNames>
           <String>$Field</String>
           <String>$Table</String>
+          <String>%Airline ID</String>
+          <String>%Carrier Group ID</String>
+          <String>%Region Code</String>
+          <String>%Aircraft Group ID</String>
+          <String>%Aircraft Type ID</String>
+          <String>%Distance Group ID</String>
+          <String>%Datasource ID</String>
         </FieldNames>
       </FieldTagData>
       <FieldTagData>
@@ -239,6 +281,13 @@
           <String>From - To City</String>
           <String>From - To State Code</String>
           <String>From - To State</String>
+          <String>Carrier Group</String>
+          <String>Airline</String>
+          <String>Carrier's Operating Region</String>
+          <String>Flight Type</String>
+          <String>Aircraft Group</String>
+          <String>Aircraft Type</String>
+          <String>Distance Interval</String>
         </FieldNames>
       </FieldTagData>
       <FieldTagData>
@@ -270,6 +319,13 @@
           <String>From - To City</String>
           <String>From - To State Code</String>
           <String>From - To State</String>
+          <String>Carrier Group</String>
+          <String>Airline</String>
+          <String>Carrier's Operating Region</String>
+          <String>Flight Type</String>
+          <String>Aircraft Group</String>
+          <String>Aircraft Type</String>
+          <String>Distance Interval</String>
         </FieldNames>
       </FieldTagData>
       <FieldTagData>
