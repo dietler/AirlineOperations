@@ -10,6 +10,10 @@ SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT';
 SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
 SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
 
+
+
+///$tab Main Data
+[Main Data]:
 LOAD [%Airline ID], 
      [%Carrier Group ID], 
      [%Unique Carrier Code], 
@@ -68,5 +72,53 @@ LOAD [%Airline ID],
      [From - To State]
 FROM
 [..\Data Files\QVDs\Flight Data.qvd]
+(qvd);
+///$tab Airlines
+[Carrier Groups]:
+LOAD [%Carrier Group ID], 
+     [Carrier Group]
+FROM
+[..\Data Files\QVDs\Carrier Groups.qvd]
+(qvd);
+
+[Carrier Operating Region]:
+LOAD [%Region Code], 
+     [Carrier's Operating Region]
+FROM
+[..\Data Files\QVDs\Carrier Operating Region.qvd]
+(qvd);
+
+[Flight Types]:
+LOAD [%Datasource ID], 
+     [Flight Type]
+FROM
+[..\Data Files\QVDs\Flight Types.qvd]
+(qvd);
+
+
+
+///$tab Aircrafts
+[Aircraft Groups]:
+LOAD [%Aircraft Group ID], 
+     [Aircraft Group]
+FROM
+[..\Data Files\QVDs\Aircraft Groups.qvd]
+(qvd);
+
+[Aircraft Types]:
+LOAD [%Aircraft Type ID], 
+     [Aircraft Type]
+FROM
+[..\Data Files\QVDs\Aircraft Types.qvd]
+(qvd);
+
+
+
+///$tab Airports
+[Distance Groups]:
+LOAD [%Distance Group ID], 
+     [Distance Interval]
+FROM
+[..\Data Files\QVDs\Distance Groups.qvd]
 (qvd);
 
