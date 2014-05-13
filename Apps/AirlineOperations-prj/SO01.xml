@@ -1,6 +1,6 @@
 ﻿<SearchObjectProperties>
   <Frame>
-    <BorderWidth>4</BorderWidth>
+    <BorderWidth>0</BorderWidth>
     <BorderEffect>FLAT</BorderEffect>
     <Color>
       <Mode>COLORAREA_SOLID</Mode>

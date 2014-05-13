@@ -245,7 +245,7 @@
     <SoftLock>false</SoftLock>
     <ExcludedValuesMode>0</ExcludedValuesMode>
     <DefaultSearchMode>0</DefaultSearchMode>
-    <SuppressHorizontalScroll>false</SuppressHorizontalScroll>
+    <SuppressHorizontalScroll>true</SuppressHorizontalScroll>
     <FixedColumnsCount>-1</FixedColumnsCount>
     <LayoutDependentPrint>true</LayoutDependentPrint>
     <PrintAllValues>false</PrintAllValues>

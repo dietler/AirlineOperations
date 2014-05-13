@@ -47,7 +47,7 @@
         <DropShadow>false</DropShadow>
       </CaptionFont>
       <Name>
-        <v>Carrier Name</v>
+        <v>Carrier Name (# Departures)</v>
       </Name>
       <Bmp enctype="base64"></Bmp>
       <BmpMode>0</BmpMode>
@@ -245,7 +245,7 @@
     <SoftLock>false</SoftLock>
     <ExcludedValuesMode>0</ExcludedValuesMode>
     <DefaultSearchMode>0</DefaultSearchMode>
-    <SuppressHorizontalScroll>false</SuppressHorizontalScroll>
+    <SuppressHorizontalScroll>true</SuppressHorizontalScroll>
     <FixedColumnsCount>-1</FixedColumnsCount>
     <LayoutDependentPrint>true</LayoutDependentPrint>
     <PrintAllValues>false</PrintAllValues>
@@ -260,7 +260,9 @@
     <Name>Carrier Name</Name>
     <Type>PRESENT</Type>
   </Def>
-  <Title></Title>
+  <Title>
+    <v>Carrier Name (# Departures)</v>
+  </Title>
   <PrintSettings>
     <Landscape>true</Landscape>
     <PrintCurrentSelectionPosition>BOTTOM_OF_LAST_PAGE</PrintCurrentSelectionPosition>

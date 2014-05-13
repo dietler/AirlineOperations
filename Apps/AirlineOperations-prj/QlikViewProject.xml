@@ -1,4 +1,4 @@
-﻿<!-- Last project change: 2014-05-12 14:49:25 (2014-05-12 21:49:25) -->
+﻿<!-- Last project change: 2014-05-12 18:42:09 (2014-05-13 01:42:09) -->
 <PrjQlikViewProject>
   <GLOBAL>
     <AllPropertiesFileName>AllProperties.xml</AllPropertiesFileName>
@@ -17,9 +17,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB01</ObjectId>
           <Rect>
-            <Left>1878</Left>
-            <Top>0</Top>
-            <Width>450</Width>
+            <Left>881</Left>
+            <Top>1266</Top>
+            <Width>728</Width>
             <Height>900</Height>
           </Rect>
           <MinimizedRect>
@@ -34,9 +34,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB02</ObjectId>
           <Rect>
-            <Left>2341</Left>
-            <Top>0</Top>
-            <Width>450</Width>
+            <Left>1622</Left>
+            <Top>1263</Top>
+            <Width>728</Width>
             <Height>900</Height>
           </Rect>
           <MinimizedRect>
@@ -51,9 +51,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB03</ObjectId>
           <Rect>
-            <Left>2803</Left>
-            <Top>0</Top>
-            <Width>450</Width>
+            <Left>2363</Left>
+            <Top>1263</Top>
+            <Width>728</Width>
             <Height>900</Height>
           </Rect>
           <MinimizedRect>
@@ -68,9 +68,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB04</ObjectId>
           <Rect>
-            <Left>491</Left>
-            <Top>0</Top>
-            <Width>450</Width>
+            <Left>881</Left>
+            <Top>344</Top>
+            <Width>731</Width>
             <Height>900</Height>
           </Rect>
           <MinimizedRect>
@@ -85,9 +85,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB05</ObjectId>
           <Rect>
-            <Left>953</Left>
-            <Top>0</Top>
-            <Width>450</Width>
+            <Left>1625</Left>
+            <Top>344</Top>
+            <Width>731</Width>
             <Height>900</Height>
           </Rect>
           <MinimizedRect>
@@ -102,9 +102,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB06</ObjectId>
           <Rect>
-            <Left>1416</Left>
-            <Top>0</Top>
-            <Width>450</Width>
+            <Left>2369</Left>
+            <Top>344</Top>
+            <Width>731</Width>
             <Height>900</Height>
           </Rect>
           <MinimizedRect>
@@ -119,10 +119,10 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB07</ObjectId>
           <Rect>
-            <Left>28</Left>
-            <Top>0</Top>
-            <Width>450</Width>
-            <Height>900</Height>
+            <Left>25</Left>
+            <Top>341</Top>
+            <Width>784</Width>
+            <Height>1819</Height>
           </Rect>
           <MinimizedRect>
             <Left>0</Left>
@@ -142,10 +142,10 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB08</ObjectId>
           <Rect>
-            <Left>253</Left>
-            <Top>1191</Top>
-            <Width>731</Width>
-            <Height>900</Height>
+            <Left>22</Left>
+            <Top>1422</Top>
+            <Width>800</Width>
+            <Height>319</Height>
           </Rect>
           <MinimizedRect>
             <Left>0</Left>
@@ -159,9 +159,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB09</ObjectId>
           <Rect>
-            <Left>253</Left>
-            <Top>925</Top>
-            <Width>731</Width>
+            <Left>22</Left>
+            <Top>497</Top>
+            <Width>800</Width>
             <Height>900</Height>
           </Rect>
           <MinimizedRect>
@@ -176,9 +176,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB10</ObjectId>
           <Rect>
-            <Left>253</Left>
-            <Top>263</Top>
-            <Width>731</Width>
+            <Left>22</Left>
+            <Top>331</Top>
+            <Width>800</Width>
             <Height>159</Height>
           </Rect>
           <MinimizedRect>
@@ -193,10 +193,10 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB11</ObjectId>
           <Rect>
-            <Left>253</Left>
-            <Top>434</Top>
-            <Width>731</Width>
-            <Height>900</Height>
+            <Left>22</Left>
+            <Top>759</Top>
+            <Width>809</Width>
+            <Height>319</Height>
           </Rect>
           <MinimizedRect>
             <Left>0</Left>
@@ -210,9 +210,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB12</ObjectId>
           <Rect>
-            <Left>1866</Left>
-            <Top>53</Top>
-            <Width>775</Width>
+            <Left>1738</Left>
+            <Top>134</Top>
+            <Width>1375</Width>
             <Height>900</Height>
           </Rect>
           <MinimizedRect>
@@ -227,10 +227,10 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB13</ObjectId>
           <Rect>
-            <Left>1509</Left>
-            <Top>53</Top>
-            <Width>344</Width>
-            <Height>900</Height>
+            <Left>1219</Left>
+            <Top>134</Top>
+            <Width>500</Width>
+            <Height>53</Height>
           </Rect>
           <MinimizedRect>
             <Left>0</Left>
@@ -244,8 +244,8 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB14</ObjectId>
           <Rect>
-            <Left>1078</Left>
-            <Top>53</Top>
+            <Left>788</Left>
+            <Top>131</Top>
             <Width>419</Width>
             <Height>113</Height>
           </Rect>
@@ -261,8 +261,8 @@
         <PrjFrameParentDef>
           <ObjectId>Document\SO01</ObjectId>
           <Rect>
-            <Left>278</Left>
-            <Top>97</Top>
+            <Left>50</Left>
+            <Top>109</Top>
             <Width>700</Width>
             <Height>100</Height>
           </Rect>
@@ -278,10 +278,10 @@
         <PrjFrameParentDef>
           <ObjectId>Document\CH01</ObjectId>
           <Rect>
-            <Left>1075</Left>
-            <Top>263</Top>
-            <Width>1563</Width>
-            <Height>1122</Height>
+            <Left>869</Left>
+            <Top>334</Top>
+            <Width>2234</Width>
+            <Height>959</Height>
           </Rect>
           <MinimizedRect>
             <Left>0</Left>
@@ -295,9 +295,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\CH02</ObjectId>
           <Rect>
-            <Left>1075</Left>
-            <Top>1400</Top>
-            <Width>1566</Width>
+            <Left>869</Left>
+            <Top>1319</Top>
+            <Width>2122</Width>
             <Height>900</Height>
           </Rect>
           <MinimizedRect>
@@ -312,10 +312,10 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB15_131291916</ObjectId>
           <Rect>
-            <Left>250</Left>
-            <Top>1781</Top>
-            <Width>728</Width>
-            <Height>350</Height>
+            <Left>22</Left>
+            <Top>1091</Top>
+            <Width>800</Width>
+            <Height>319</Height>
           </Rect>
           <MinimizedRect>
             <Left>0</Left>
@@ -329,10 +329,78 @@
         <PrjFrameParentDef>
           <ObjectId>Document\LB16_010042462</ObjectId>
           <Rect>
-            <Left>316</Left>
-            <Top>2231</Top>
-            <Width>450</Width>
-            <Height>384</Height>
+            <Left>22</Left>
+            <Top>1747</Top>
+            <Width>800</Width>
+            <Height>319</Height>
+          </Rect>
+          <MinimizedRect>
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>297</Width>
+            <Height>102</Height>
+          </MinimizedRect>
+          <ShowMode>1</ShowMode>
+          <ZedLevel>0</ZedLevel>
+        </PrjFrameParentDef>
+        <PrjFrameParentDef>
+          <ObjectId>Document\MB01_088022527</ObjectId>
+          <Rect>
+            <Left>22</Left>
+            <Top>2078</Top>
+            <Width>800</Width>
+            <Height>319</Height>
+          </Rect>
+          <MinimizedRect>
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>297</Width>
+            <Height>102</Height>
+          </MinimizedRect>
+          <ShowMode>1</ShowMode>
+          <ZedLevel>0</ZedLevel>
+        </PrjFrameParentDef>
+        <PrjFrameParentDef>
+          <ObjectId>Document\CS01_222246755</ObjectId>
+          <Rect>
+            <Left>3156</Left>
+            <Top>328</Top>
+            <Width>806</Width>
+            <Height>450</Height>
+          </Rect>
+          <MinimizedRect>
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>297</Width>
+            <Height>102</Height>
+          </MinimizedRect>
+          <ShowMode>1</ShowMode>
+          <ZedLevel>0</ZedLevel>
+        </PrjFrameParentDef>
+        <PrjFrameParentDef>
+          <ObjectId>Document\BM01_473052809</ObjectId>
+          <Rect>
+            <Left>3159</Left>
+            <Top>791</Top>
+            <Width>806</Width>
+            <Height>500</Height>
+          </Rect>
+          <MinimizedRect>
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>297</Width>
+            <Height>102</Height>
+          </MinimizedRect>
+          <ShowMode>1</ShowMode>
+          <ZedLevel>0</ZedLevel>
+        </PrjFrameParentDef>
+        <PrjFrameParentDef>
+          <ObjectId>Document\CH03_491328306</ObjectId>
+          <Rect>
+            <Left>863</Left>
+            <Top>1916</Top>
+            <Width>2225</Width>
+            <Height>606</Height>
           </Rect>
           <MinimizedRect>
             <Left>0</Left>
