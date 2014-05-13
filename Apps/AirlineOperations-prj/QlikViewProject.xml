@@ -1,4 +1,4 @@
-﻿<!-- Last project change: 2014-05-13 15:37:07 (2014-05-13 22:37:07) -->
+﻿<!-- Last project change: 2014-05-13 15:55:16 (2014-05-13 22:55:16) -->
 <PrjQlikViewProject>
   <GLOBAL>
     <AllPropertiesFileName>AllProperties.xml</AllPropertiesFileName>
@@ -585,7 +585,7 @@
     </PrjSheetProperties>
     <PrjSheetProperties>
       <SheetId>Document\SH_Analysis</SheetId>
-      <IsActive>false</IsActive>
+      <IsActive>true</IsActive>
       <ChildObjects>
         <PrjFrameParentDef>
           <ObjectId>Document\LB08</ObjectId>
@@ -914,7 +914,7 @@
     </PrjSheetProperties>
     <PrjSheetProperties>
       <SheetId>Document\SH04_586002357</SheetId>
-      <IsActive>true</IsActive>
+      <IsActive>false</IsActive>
       <ChildObjects>
         <PrjFrameParentDef>
           <ObjectId>Document\LB08</ObjectId>
@@ -1225,7 +1225,88 @@
       </ChildObjects>
     </PrjSheetProperties>
   </SHEETS>
-  <REPORTS></REPORTS>
+  <REPORTS>
+    <PrjReportProperties>
+      <Id>Document\RP01_888421618</Id>
+      <Pages>
+        <ReportPage>
+          <PageMode>SINGLE_PAPER_PAGE</PageMode>
+          <Landscape>false</Landscape>
+          <Items>
+            <ReportItem>
+              <Rect>
+                <Left>3F8B094B31D922A4</Left>
+                <Top>3F8AD466D8DF94AE</Top>
+                <Width>3FD97B05F8D56652</Width>
+                <Height>3FD2F684BDA12F68</Height>
+              </Rect>
+              <ObjectId>Document\LB09</ObjectId>
+              <Image enctype="base64"></Image>
+              <Text></Text>
+              <Font></Font>
+              <Clip>IMAGE_KEEPASPECT</Clip>
+              <FrameWidth>4</FrameWidth>
+              <FrameColor></FrameColor>
+              <UseFrame>false</UseFrame>
+              <KeepFontSize>false</KeepFontSize>
+              <HorizontalAlign>0</HorizontalAlign>
+              <VerticalAlign>0</VerticalAlign>
+            </ReportItem>
+            <ReportItem>
+              <Rect>
+                <Left>3FCEDAF93B5269E8</Left>
+                <Top>3FE6E172D4CE7C50</Top>
+                <Width>3FE84941B12B6586</Width>
+                <Height>3FD23D1A56630760</Height>
+              </Rect>
+              <ObjectId>Document\CH08_553840659</ObjectId>
+              <Image enctype="base64"></Image>
+              <Text></Text>
+              <Font></Font>
+              <Clip>IMAGE_KEEPASPECT</Clip>
+              <FrameWidth>4</FrameWidth>
+              <FrameColor></FrameColor>
+              <UseFrame>false</UseFrame>
+              <KeepFontSize>false</KeepFontSize>
+              <HorizontalAlign>0</HorizontalAlign>
+              <VerticalAlign>0</VerticalAlign>
+            </ReportItem>
+            <ReportItem>
+              <Rect>
+                <Left>3C90000000000000</Left>
+                <Top>3FD79D9FDC3A218A</Top>
+                <Width>3FF0000000000000</Width>
+                <Height>3FD3183AFEF24DF5</Height>
+              </Rect>
+              <ObjectId>Document\CH01</ObjectId>
+              <Image enctype="base64"></Image>
+              <Text></Text>
+              <Font></Font>
+              <Clip>IMAGE_KEEPASPECT</Clip>
+              <FrameWidth>4</FrameWidth>
+              <FrameColor></FrameColor>
+              <UseFrame>false</UseFrame>
+              <KeepFontSize>false</KeepFontSize>
+              <HorizontalAlign>0</HorizontalAlign>
+              <VerticalAlign>0</VerticalAlign>
+            </ReportItem>
+          </Items>
+          <ScaleMode>PRINT_NATURAL</ScaleMode>
+          <Scale>100</Scale>
+          <PagesX>1</PagesX>
+          <PagesY>1</PagesY>
+          <AreaMode>ONLY_MAIN_AREA</AreaMode>
+          <Intro></Intro>
+          <Appendix></Appendix>
+          <Banding>
+            <Fields>
+              <String>Flight Type</String>
+            </Fields>
+          </Banding>
+        </ReportPage>
+      </Pages>
+    </PrjReportProperties>
+  </REPORTS>
   <ContainerMembers>
     <PrjContainerMembers>
       <ParentObjectId>Document\CT01_831394895</ParentObjectId>
