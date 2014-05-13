@@ -52,9 +52,9 @@
       <Bmp enctype="base64"></Bmp>
       <BmpMode>0</BmpMode>
       <Detached>false</Detached>
-      <AllowMinimize>true</AllowMinimize>
+      <AllowMinimize>false</AllowMinimize>
       <AutoMinimize>false</AutoMinimize>
-      <AllowMaximize>true</AllowMaximize>
+      <AllowMaximize>false</AllowMaximize>
       <AllowInfo>false</AllowInfo>
       <PrintIcon>true</PrintIcon>
       <CopyIcon>false</CopyIcon>
@@ -221,7 +221,7 @@
     <WindowTitle>
       <v>Traffic per year</v>
     </WindowTitle>
-    <GraphMode>GRAPH_MODE_BAR</GraphMode>
+    <GraphMode>GRAPH_MODE_LINE</GraphMode>
     <TotalString></TotalString>
     <ErrorMessageOverrides></ErrorMessageOverrides>
     <MiniChartLook>false</MiniChartLook>
@@ -328,12 +328,18 @@
     <ExpressionVisualDef>
       <ExpressionTypes>
         <ExpressionType></ExpressionType>
+        <ExpressionType>
+          <Type>1</Type>
+          <Order>0</Order>
+          <DisplayEquation>false</DisplayEquation>
+          <DisplayR2>false</DisplayR2>
+        </ExpressionType>
       </ExpressionTypes>
       <ExpType>BASE_EXP</ExpType>
       <_Level>0</_Level>
       <ShowAsBar>true</ShowAsBar>
       <ShowAsLine>true</ShowAsLine>
-      <ShowAsSymbol>false</ShowAsSymbol>
+      <ShowAsSymbol>true</ShowAsSymbol>
       <ShowAsTextInChart>false</ShowAsTextInChart>
       <ShowAsTextOnAxis>false</ShowAsTextOnAxis>
       <NumbersOnBars>false</NumbersOnBars>
@@ -698,18 +704,24 @@
       <ShowAsPopup>false</ShowAsPopup>
       <Searchable>false</Searchable>
       <LineMode>LINEMODE_STRAIGHT</LineMode>
-      <SymbolMode>SYMBOLMODE_AUTO</SymbolMode>
+      <SymbolMode>SYMBOLMODE_CIRCLE</SymbolMode>
       <MiniChartCellSettings></MiniChartCellSettings>
     </ExpressionVisualDef>
     <ExpressionVisualDef>
       <ExpressionTypes>
+        <ExpressionType>
+          <Type>1</Type>
+          <Order>0</Order>
+          <DisplayEquation>false</DisplayEquation>
+          <DisplayR2>false</DisplayR2>
+        </ExpressionType>
         <ExpressionType></ExpressionType>
       </ExpressionTypes>
       <ExpType>BASE_EXP</ExpType>
       <_Level>0</_Level>
       <ShowAsBar>true</ShowAsBar>
       <ShowAsLine>true</ShowAsLine>
-      <ShowAsSymbol>false</ShowAsSymbol>
+      <ShowAsSymbol>true</ShowAsSymbol>
       <ShowAsTextInChart>false</ShowAsTextInChart>
       <ShowAsTextOnAxis>false</ShowAsTextOnAxis>
       <NumbersOnBars>false</NumbersOnBars>
@@ -1074,18 +1086,24 @@
       <ShowAsPopup>false</ShowAsPopup>
       <Searchable>false</Searchable>
       <LineMode>LINEMODE_STRAIGHT</LineMode>
-      <SymbolMode>SYMBOLMODE_AUTO</SymbolMode>
+      <SymbolMode>SYMBOLMODE_DOT</SymbolMode>
       <MiniChartCellSettings></MiniChartCellSettings>
     </ExpressionVisualDef>
     <ExpressionVisualDef>
       <ExpressionTypes>
+        <ExpressionType>
+          <Type>1</Type>
+          <Order>0</Order>
+          <DisplayEquation>false</DisplayEquation>
+          <DisplayR2>false</DisplayR2>
+        </ExpressionType>
         <ExpressionType></ExpressionType>
       </ExpressionTypes>
       <ExpType>BASE_EXP</ExpType>
       <_Level>0</_Level>
       <ShowAsBar>true</ShowAsBar>
       <ShowAsLine>true</ShowAsLine>
-      <ShowAsSymbol>false</ShowAsSymbol>
+      <ShowAsSymbol>true</ShowAsSymbol>
       <ShowAsTextInChart>false</ShowAsTextInChart>
       <ShowAsTextOnAxis>false</ShowAsTextOnAxis>
       <NumbersOnBars>false</NumbersOnBars>
@@ -1450,18 +1468,24 @@
       <ShowAsPopup>false</ShowAsPopup>
       <Searchable>false</Searchable>
       <LineMode>LINEMODE_STRAIGHT</LineMode>
-      <SymbolMode>SYMBOLMODE_AUTO</SymbolMode>
+      <SymbolMode>SYMBOLMODE_DOT</SymbolMode>
       <MiniChartCellSettings></MiniChartCellSettings>
     </ExpressionVisualDef>
     <ExpressionVisualDef>
       <ExpressionTypes>
+        <ExpressionType>
+          <Type>1</Type>
+          <Order>0</Order>
+          <DisplayEquation>false</DisplayEquation>
+          <DisplayR2>false</DisplayR2>
+        </ExpressionType>
         <ExpressionType></ExpressionType>
       </ExpressionTypes>
       <ExpType>BASE_EXP</ExpType>
       <_Level>0</_Level>
       <ShowAsBar>true</ShowAsBar>
       <ShowAsLine>true</ShowAsLine>
-      <ShowAsSymbol>false</ShowAsSymbol>
+      <ShowAsSymbol>true</ShowAsSymbol>
       <ShowAsTextInChart>false</ShowAsTextInChart>
       <ShowAsTextOnAxis>false</ShowAsTextOnAxis>
       <NumbersOnBars>false</NumbersOnBars>
@@ -1826,7 +1850,7 @@
       <ShowAsPopup>false</ShowAsPopup>
       <Searchable>false</Searchable>
       <LineMode>LINEMODE_STRAIGHT</LineMode>
-      <SymbolMode>SYMBOLMODE_AUTO</SymbolMode>
+      <SymbolMode>SYMBOLMODE_DOT</SymbolMode>
       <MiniChartCellSettings></MiniChartCellSettings>
     </ExpressionVisualDef>
   </_ExpressionVisuals>
@@ -2125,7 +2149,18 @@
     </FastChangeRect>
     <_DataAxes>
       <AxisDef>
-        <Units></Units>
+        <Units>
+          <Unit></Unit>
+          <kUnit>
+            <v>x Thousand</v>
+          </kUnit>
+          <MUnit>
+            <v>x Million</v>
+          </MUnit>
+          <GUnit>
+            <v>x Billion</v>
+          </GUnit>
+        </Units>
         <Backcast></Backcast>
         <Forecast></Forecast>
         <Max></Max>
@@ -2142,7 +2177,7 @@
         </NumberPresentation>
         <Show>true</Show>
         <Grid>false</Grid>
-        <Force0>true</Force0>
+        <Force0>false</Force0>
         <Logscale>false</Logscale>
         <MidAxisLabel>false</MidAxisLabel>
         <AxisPosition>POSITION_LEFT</AxisPosition>
@@ -2196,7 +2231,18 @@
         <MinorStepMode>0</MinorStepMode>
       </AxisDef>
       <AxisDef>
-        <Units></Units>
+        <Units>
+          <Unit></Unit>
+          <kUnit>
+            <v>x Thousand</v>
+          </kUnit>
+          <MUnit>
+            <v>x Million</v>
+          </MUnit>
+          <GUnit>
+            <v>x Billion</v>
+          </GUnit>
+        </Units>
         <Backcast></Backcast>
         <Forecast></Forecast>
         <Max></Max>
@@ -2213,7 +2259,7 @@
         </NumberPresentation>
         <Show>true</Show>
         <Grid>true</Grid>
-        <Force0>true</Force0>
+        <Force0>false</Force0>
         <Logscale>false</Logscale>
         <MidAxisLabel>false</MidAxisLabel>
         <AxisPosition>POSITION_LEFT</AxisPosition>
@@ -2260,7 +2306,18 @@
         <MinorStepMode>0</MinorStepMode>
       </AxisDef>
       <AxisDef>
-        <Units></Units>
+        <Units>
+          <Unit></Unit>
+          <kUnit>
+            <v>x Thousand</v>
+          </kUnit>
+          <MUnit>
+            <v>x Million</v>
+          </MUnit>
+          <GUnit>
+            <v>x Billion</v>
+          </GUnit>
+        </Units>
         <Backcast></Backcast>
         <Forecast></Forecast>
         <Max></Max>
@@ -2277,7 +2334,7 @@
         </NumberPresentation>
         <Show>true</Show>
         <Grid>false</Grid>
-        <Force0>true</Force0>
+        <Force0>false</Force0>
         <Logscale>false</Logscale>
         <MidAxisLabel>false</MidAxisLabel>
         <AxisPosition>POSITION_LEFT</AxisPosition>
@@ -2324,7 +2381,18 @@
         <MinorStepMode>0</MinorStepMode>
       </AxisDef>
       <AxisDef>
-        <Units></Units>
+        <Units>
+          <Unit></Unit>
+          <kUnit>
+            <v>x Thousand</v>
+          </kUnit>
+          <MUnit>
+            <v>x Million</v>
+          </MUnit>
+          <GUnit>
+            <v>x Billion</v>
+          </GUnit>
+        </Units>
         <Backcast></Backcast>
         <Forecast></Forecast>
         <Max></Max>
@@ -2341,7 +2409,7 @@
         </NumberPresentation>
         <Show>true</Show>
         <Grid>false</Grid>
-        <Force0>true</Force0>
+        <Force0>false</Force0>
         <Logscale>false</Logscale>
         <MidAxisLabel>false</MidAxisLabel>
         <AxisPosition>POSITION_LEFT</AxisPosition>
@@ -2693,7 +2761,7 @@
     <GroupSpacingFactor>3FE0000000000000</GroupSpacingFactor>
     <BarSpacingFactor>3FD0000000000000</BarSpacingFactor>
     <LineWidth>10</LineWidth>
-    <SymbolSize>7</SymbolSize>
+    <SymbolSize>16</SymbolSize>
     <TrendLineWidth>5</TrendLineWidth>
     <ColorMap>
       <ColorAreaDef>
@@ -3954,12 +4022,18 @@
           <ExpressionVisual>
             <ExpressionTypes>
               <ExpressionType></ExpressionType>
+              <ExpressionType>
+                <Type>1</Type>
+                <Order>0</Order>
+                <DisplayEquation>false</DisplayEquation>
+                <DisplayR2>false</DisplayR2>
+              </ExpressionType>
             </ExpressionTypes>
             <ExpType>BASE_EXP</ExpType>
             <_Level>0</_Level>
             <ShowAsBar>true</ShowAsBar>
             <ShowAsLine>true</ShowAsLine>
-            <ShowAsSymbol>false</ShowAsSymbol>
+            <ShowAsSymbol>true</ShowAsSymbol>
             <ShowAsTextInChart>false</ShowAsTextInChart>
             <ShowAsTextOnAxis>false</ShowAsTextOnAxis>
             <NumbersOnBars>false</NumbersOnBars>
@@ -4324,11 +4398,22 @@
             <ShowAsPopup>false</ShowAsPopup>
             <Searchable>false</Searchable>
             <LineMode>LINEMODE_STRAIGHT</LineMode>
-            <SymbolMode>SYMBOLMODE_AUTO</SymbolMode>
+            <SymbolMode>SYMBOLMODE_CIRCLE</SymbolMode>
             <MiniChartCellSettings></MiniChartCellSettings>
           </ExpressionVisual>
           <AxisData>
-            <Units></Units>
+            <Units>
+              <Unit></Unit>
+              <kUnit>
+                <v>x Thousand</v>
+              </kUnit>
+              <MUnit>
+                <v>x Million</v>
+              </MUnit>
+              <GUnit>
+                <v>x Billion</v>
+              </GUnit>
+            </Units>
             <Backcast></Backcast>
             <Forecast></Forecast>
             <Max></Max>
@@ -4345,7 +4430,7 @@
             </NumberPresentation>
             <Show>true</Show>
             <Grid>false</Grid>
-            <Force0>true</Force0>
+            <Force0>false</Force0>
             <Logscale>false</Logscale>
             <MidAxisLabel>false</MidAxisLabel>
             <AxisPosition>POSITION_LEFT</AxisPosition>
@@ -4432,13 +4517,19 @@
           </ExpressionData>
           <ExpressionVisual>
             <ExpressionTypes>
+              <ExpressionType>
+                <Type>1</Type>
+                <Order>0</Order>
+                <DisplayEquation>false</DisplayEquation>
+                <DisplayR2>false</DisplayR2>
+              </ExpressionType>
               <ExpressionType></ExpressionType>
             </ExpressionTypes>
             <ExpType>BASE_EXP</ExpType>
             <_Level>0</_Level>
             <ShowAsBar>true</ShowAsBar>
             <ShowAsLine>true</ShowAsLine>
-            <ShowAsSymbol>false</ShowAsSymbol>
+            <ShowAsSymbol>true</ShowAsSymbol>
             <ShowAsTextInChart>false</ShowAsTextInChart>
             <ShowAsTextOnAxis>false</ShowAsTextOnAxis>
             <NumbersOnBars>false</NumbersOnBars>
@@ -4803,11 +4894,22 @@
             <ShowAsPopup>false</ShowAsPopup>
             <Searchable>false</Searchable>
             <LineMode>LINEMODE_STRAIGHT</LineMode>
-            <SymbolMode>SYMBOLMODE_AUTO</SymbolMode>
+            <SymbolMode>SYMBOLMODE_DOT</SymbolMode>
             <MiniChartCellSettings></MiniChartCellSettings>
           </ExpressionVisual>
           <AxisData>
-            <Units></Units>
+            <Units>
+              <Unit></Unit>
+              <kUnit>
+                <v>x Thousand</v>
+              </kUnit>
+              <MUnit>
+                <v>x Million</v>
+              </MUnit>
+              <GUnit>
+                <v>x Billion</v>
+              </GUnit>
+            </Units>
             <Backcast></Backcast>
             <Forecast></Forecast>
             <Max></Max>
@@ -4824,7 +4926,7 @@
             </NumberPresentation>
             <Show>true</Show>
             <Grid>true</Grid>
-            <Force0>true</Force0>
+            <Force0>false</Force0>
             <Logscale>false</Logscale>
             <MidAxisLabel>false</MidAxisLabel>
             <AxisPosition>POSITION_LEFT</AxisPosition>
@@ -4904,13 +5006,19 @@
           </ExpressionData>
           <ExpressionVisual>
             <ExpressionTypes>
+              <ExpressionType>
+                <Type>1</Type>
+                <Order>0</Order>
+                <DisplayEquation>false</DisplayEquation>
+                <DisplayR2>false</DisplayR2>
+              </ExpressionType>
               <ExpressionType></ExpressionType>
             </ExpressionTypes>
             <ExpType>BASE_EXP</ExpType>
             <_Level>0</_Level>
             <ShowAsBar>true</ShowAsBar>
             <ShowAsLine>true</ShowAsLine>
-            <ShowAsSymbol>false</ShowAsSymbol>
+            <ShowAsSymbol>true</ShowAsSymbol>
             <ShowAsTextInChart>false</ShowAsTextInChart>
             <ShowAsTextOnAxis>false</ShowAsTextOnAxis>
             <NumbersOnBars>false</NumbersOnBars>
@@ -5275,11 +5383,22 @@
             <ShowAsPopup>false</ShowAsPopup>
             <Searchable>false</Searchable>
             <LineMode>LINEMODE_STRAIGHT</LineMode>
-            <SymbolMode>SYMBOLMODE_AUTO</SymbolMode>
+            <SymbolMode>SYMBOLMODE_DOT</SymbolMode>
             <MiniChartCellSettings></MiniChartCellSettings>
           </ExpressionVisual>
           <AxisData>
-            <Units></Units>
+            <Units>
+              <Unit></Unit>
+              <kUnit>
+                <v>x Thousand</v>
+              </kUnit>
+              <MUnit>
+                <v>x Million</v>
+              </MUnit>
+              <GUnit>
+                <v>x Billion</v>
+              </GUnit>
+            </Units>
             <Backcast></Backcast>
             <Forecast></Forecast>
             <Max></Max>
@@ -5296,7 +5415,7 @@
             </NumberPresentation>
             <Show>true</Show>
             <Grid>false</Grid>
-            <Force0>true</Force0>
+            <Force0>false</Force0>
             <Logscale>false</Logscale>
             <MidAxisLabel>false</MidAxisLabel>
             <AxisPosition>POSITION_LEFT</AxisPosition>
@@ -5376,13 +5495,19 @@
           </ExpressionData>
           <ExpressionVisual>
             <ExpressionTypes>
+              <ExpressionType>
+                <Type>1</Type>
+                <Order>0</Order>
+                <DisplayEquation>false</DisplayEquation>
+                <DisplayR2>false</DisplayR2>
+              </ExpressionType>
               <ExpressionType></ExpressionType>
             </ExpressionTypes>
             <ExpType>BASE_EXP</ExpType>
             <_Level>0</_Level>
             <ShowAsBar>true</ShowAsBar>
             <ShowAsLine>true</ShowAsLine>
-            <ShowAsSymbol>false</ShowAsSymbol>
+            <ShowAsSymbol>true</ShowAsSymbol>
             <ShowAsTextInChart>false</ShowAsTextInChart>
             <ShowAsTextOnAxis>false</ShowAsTextOnAxis>
             <NumbersOnBars>false</NumbersOnBars>
@@ -5747,11 +5872,22 @@
             <ShowAsPopup>false</ShowAsPopup>
             <Searchable>false</Searchable>
             <LineMode>LINEMODE_STRAIGHT</LineMode>
-            <SymbolMode>SYMBOLMODE_AUTO</SymbolMode>
+            <SymbolMode>SYMBOLMODE_DOT</SymbolMode>
             <MiniChartCellSettings></MiniChartCellSettings>
           </ExpressionVisual>
           <AxisData>
-            <Units></Units>
+            <Units>
+              <Unit></Unit>
+              <kUnit>
+                <v>x Thousand</v>
+              </kUnit>
+              <MUnit>
+                <v>x Million</v>
+              </MUnit>
+              <GUnit>
+                <v>x Billion</v>
+              </GUnit>
+            </Units>
             <Backcast></Backcast>
             <Forecast></Forecast>
             <Max></Max>
@@ -5768,7 +5904,7 @@
             </NumberPresentation>
             <Show>true</Show>
             <Grid>false</Grid>
-            <Force0>true</Force0>
+            <Force0>false</Force0>
             <Logscale>false</Logscale>
             <MidAxisLabel>false</MidAxisLabel>
             <AxisPosition>POSITION_LEFT</AxisPosition>
