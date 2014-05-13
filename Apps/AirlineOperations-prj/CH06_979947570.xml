@@ -229,7 +229,7 @@
   <_ExpressionDatas>
     <ExpressionData>
       <Definition>
-        <v>Sum([# Departures Performed])/Sum([# Departures Scheduled])</v>
+        <v>$(ePerformedVsScheduled)</v>
       </Definition>
       <Enable>true</Enable>
       <Present>false</Present>
@@ -807,7 +807,7 @@
     <Texts>
       <ChartTextDef>
         <Text>
-          <v>=Num(Sum([# Departures Performed])/Sum([# Departures Scheduled]), '##.#%')</v>
+          <v>=Num($(ePerformedVsScheduled), '##.#%')</v>
         </Text>
         <Position>
           <Left>197</Left>
@@ -2458,7 +2458,7 @@
           <InternalId>-1</InternalId>
           <ExpressionData>
             <Definition>
-              <v>Sum([# Departures Performed])/Sum([# Departures Scheduled])</v>
+              <v>$(ePerformedVsScheduled)</v>
             </Definition>
             <Enable>true</Enable>
             <Present>false</Present>

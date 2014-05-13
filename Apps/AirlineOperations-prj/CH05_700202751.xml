@@ -229,7 +229,7 @@
   <_ExpressionDatas>
     <ExpressionData>
       <Definition>
-        <v>Sum([# Transported Passengers])/Sum([# Available Seats])</v>
+        <v>$(eLoadFactor)</v>
       </Definition>
       <Enable>true</Enable>
       <Present>false</Present>
@@ -807,7 +807,7 @@
     <Texts>
       <ChartTextDef>
         <Text>
-          <v>=Num(Sum([# Transported Passengers])/Sum([# Available Seats]), '##.#%')</v>
+          <v>=Num($(eLoadFactor), '##.#%')</v>
         </Text>
         <Position>
           <Left>209</Left>
@@ -2458,7 +2458,7 @@
           <InternalId>-1</InternalId>
           <ExpressionData>
             <Definition>
-              <v>Sum([# Transported Passengers])/Sum([# Available Seats])</v>
+              <v>$(eLoadFactor)</v>
             </Definition>
             <Enable>true</Enable>
             <Present>false</Present>
